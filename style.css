@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#photo img {
+    max-width: 100%;
+    height: auto;
+  
+    display: block;
+    margin: 20px auto;
+    border-radius: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.subtitle {
+    margin-top: 0;
+    color: #666;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#contact-info ul li {
+    color: #666;
+}
+
+#education ul li, #skills ul li, #awards-certifications ul li, #projects ul li {
+    color: #333;
+}
+
+#projects ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#projects ul li a:hover {
+    text-decoration: underline;
+}
+
+
+#awards-certifications ul li {
+    margin-bottom: 20px;
+}
+
